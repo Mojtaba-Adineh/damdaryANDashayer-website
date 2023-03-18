@@ -1,0 +1,254 @@
+@font-face {
+    font-family: yekanBakh;
+    src: url(../main-page/fonts/YekanBakh-Medium.ttf);
+}
+
+@font-face {
+    font-family: iranSANS;
+    src: url(../blog-page/fonts/FontsFree-Net-ir_sans.ttf);
+}
+
+*{
+    font-family: yekanBakh;
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #169CC7;
+}
+
+.header .logo{
+    width: 120px;
+}
+
+.header .row .nav-items{
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 0.75rem;
+    font-size: 20px;
+    border-bottom:4px solid #2C444E;
+    padding: 0 20px;
+    transition: border-color 0.6s ease;
+    display: inline-block;
+}
+
+.header .row .nav-items:hover{
+    border-color:#7CE643;
+}
+
+
+/* button nsection */
+
+.buttons .col{
+    border-bottom: #1A1C19 4px solid;
+    margin: 0 5rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    transition: border-color 0.5s
+ ease}
+
+.buttons a{
+    text-decoration: none;
+    color: #1A1C19;
+    font-size: 26px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.buttons .col:hover{
+    border-color: #76E14B;
+}
+
+.buttons .col a::selection{
+    color: #76E14B;
+}
+
+/* grid section */
+
+.grid-section .row{
+    margin-bottom: 2.5rem;
+}
+
+.grid-section .row .col-12{
+    width: 370px;
+    cursor: pointer;
+    text-align: center;
+    background: #F0F0F0;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin: 1.5rem 2rem ;
+    padding: 0;
+    transition: box-shadow 0.5s ease;
+}
+
+.grid-section .row .col-12:hover{
+    box-shadow: 0px 5px 20px 0px #169CC7;  
+}
+
+.grid-section .row .image-container{
+    height: 320px;
+    width: 100%;
+    background-image: url("./images/davincies-image");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 19px 19px 0px 0px;
+}
+
+.grid-section .col-12 .text{
+    font-weight: 900;
+    font-size: 18px;
+    color: #1A1C19;
+    padding: 1.5rem 0 0.5rem 0;
+    white-space: wrap;
+}
+
+/* numbers section */
+
+.numbers-section a,p{
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.numbers-section .numbers-container a,p{
+    color: #1A1C19;
+}
+
+.numbers-section i{
+    color: #169CC7;
+    font-size: 46px;
+    transition: all .2s ease-in-out;
+}
+
+.numbers-section i:hover{
+    transform: scale(1.2);
+}
+
+/* last slider section */
+
+
+.heading-section .heading-texts{
+    color:  #1A1C19;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.heading-section .horizental-rules{
+    color:  black;
+    width: 150px;
+    height: 4px;
+    margin-top: 20px;
+}
+
+.last-slider{
+    background: #F9F9F9;
+}
+
+.last-slider .container-fluid img{
+    width: 350px;
+    margin-bottom: 0;
+    background-color: #169CC7;
+}
+
+.last-slider .container-fluid p{
+    padding: 10px;
+    width: 350px;
+    height: 50 px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #169CC7;
+}
+
+.last-slider i{
+    font-size: 60px;
+    color: #169CC7;
+    transition: transform .3s;
+}
+
+.last-slider i:hover{
+    transform: scale(1.2);
+}
+
+.last-slider .col{
+    position: relative;
+}
+
+
+.last-slider .overlay {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(22, 156, 199, 0.55);
+    overflow: hidden;
+    width: 350px;
+    height: 0;
+    transition: .5s ease;
+    margin-bottom: 15px;
+}
+
+.last-slider .col:hover .overlay {
+    height: 95.4%;
+}
+
+.last-slider .col .text {
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+}
+
+/* footer */
+
+.footer{
+    background: #169CC7;
+}
+
+.footer .right p{
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-left: 7px;
+}
+
+.footer .right ul{
+    list-style-type: none;
+}
+
+.footer .right ul i{
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer .right li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    transition: color 0.4s ease;
+}
+
+.footer .right li a:hover{
+    color:  #7CE643;
+}
+
+.footer .left img{
+    width: 100px;
+}
+
+.footer .left .text-image{
+    bottom: 20px;
+    right: 0;
+}
+
+
+
